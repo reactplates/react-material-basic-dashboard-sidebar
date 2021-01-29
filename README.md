@@ -4,13 +4,13 @@ The Basic Material-UI Dashboard Template with Sidebar template offers a minimal 
 
 ## Quick Start
 
-To start off with this project, obtain a copy of this template and set it up in your new project.
+To start off with this project, obtain a copy of this template and set it up in your new project. If you prefer to use npm, delete the yarn.lock file and replace yarn commands with npm.
 
-### `npm/yarn install`
+### `yarn install`
 
 This will install all of the template dependencies and any included developer tools that are in the [package.json](package.json) file.
 
-### `npm/yarn start`
+### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm/yarn build`
+### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -38,7 +38,7 @@ Information on support will be posted here.
 
 ## Troubleshooting
 
-### `npm/yarn build` fails to minify
+### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
