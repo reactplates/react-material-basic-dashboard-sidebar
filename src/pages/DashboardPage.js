@@ -29,30 +29,30 @@ const DashboardPage = () => {
       </Grid>
       <Grid item xs={12} md={6}>
         <ColoredCard>
-          <Typography variant="h6">Scan Lists</Typography>
+          <Typography variant="h6">Section One</Typography>
           <Divider className={classes.cardSpacer} />
-          <Typography>Scan lists go here.</Typography>
+          <Typography>Section one goes here.</Typography>
         </ColoredCard>
       </Grid>
       <Grid item xs={12} md={6}>
         <ColoredCard>
-          <Typography variant="h6">Favorite Channels</Typography>
+          <Typography variant="h6">Section Two</Typography>
           <Divider className={classes.cardSpacer} />
-          <Typography>Favorite channels go here.</Typography>
+          <Typography>Section two goes here.</Typography>
         </ColoredCard>
       </Grid>
       <Grid item xs={12} md={6}>
         <ColoredCard>
-          <Typography variant="h6">Favorite Departments</Typography>
+          <Typography variant="h6">Section Three</Typography>
           <Divider className={classes.cardSpacer} />
-          <Typography>Favorite departments go here.</Typography>
+          <Typography>Section three goes here.</Typography>
         </ColoredCard>
       </Grid>
       <Grid item xs={12} md={6}>
         <ColoredCard>
-          <Typography variant="h6">Favorite Systems</Typography>
+          <Typography variant="h6">Section Four</Typography>
           <Divider className={classes.cardSpacer} />
-          <Typography>Favorite systems go here.</Typography>
+          <Typography>Section four goes here.</Typography>
         </ColoredCard>
       </Grid>
     </Grid>
