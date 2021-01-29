@@ -34,15 +34,9 @@ import {
 import {
   Menu as MenuIcon,
   Dashboard as DashboardIcon,
-  Announcement as AnnouncementIcon,
-  BubbleChart as BubbleChartIcon,
-  FeaturedPlayList as FeaturedPlayListIcon,
-  GroupWork as GroupWorkIcon,
-  LocationCity as LocationCityIcon,
   SupervisorAccount as SupervisorAccountIcon,
   Apps as AppsIcon,
   Settings as SettingsIcon,
-  DeveloperMode as DeveloperModeIcon,
   Brightness4 as Brightness4Icon,
 } from "@material-ui/icons";
 
@@ -173,68 +167,13 @@ const DrawerContent = ({ appBarClass, bucketselectClass }) => {
         <ListItem
           button
           component={NavLink}
-          to="/overview"
+          to="/dashboard"
           activeClassName="Mui-selected"
         >
           <ListItemIcon>
             <DashboardIcon />
           </ListItemIcon>
-          <ListItemText primary="Overview" />
-        </ListItem>
-        <ListItem
-          button
-          component={NavLink}
-          to="/announcements"
-          activeClassName="Mui-selected"
-        >
-          <ListItemIcon>
-            <AnnouncementIcon />
-          </ListItemIcon>
-          <ListItemText primary="Announcements" />
-        </ListItem>
-        <ListItem
-          button
-          component={NavLink}
-          to="/scanlists"
-          activeClassName="Mui-selected"
-        >
-          <ListItemIcon>
-            <FeaturedPlayListIcon />
-          </ListItemIcon>
-          <ListItemText primary="Scan Lists" />
-        </ListItem>
-        <ListItem
-          button
-          component={NavLink}
-          to="/systems"
-          activeClassName="Mui-selected"
-        >
-          <ListItemIcon>
-            <BubbleChartIcon />
-          </ListItemIcon>
-          <ListItemText primary="Systems" />
-        </ListItem>
-        <ListItem
-          button
-          component={NavLink}
-          to="/departments"
-          activeClassName="Mui-selected"
-        >
-          <ListItemIcon>
-            <LocationCityIcon />
-          </ListItemIcon>
-          <ListItemText primary="Departments" />
-        </ListItem>
-        <ListItem
-          button
-          component={NavLink}
-          to="/channels"
-          activeClassName="Mui-selected"
-        >
-          <ListItemIcon>
-            <GroupWorkIcon />
-          </ListItemIcon>
-          <ListItemText primary="Channels" />
+          <ListItemText primary="Dashboard" />
         </ListItem>
       </List>
       <Divider />
@@ -249,28 +188,6 @@ const DrawerContent = ({ appBarClass, bucketselectClass }) => {
             <SupervisorAccountIcon />
           </ListItemIcon>
           <ListItemText primary="Admin" />
-        </ListItem>
-        <ListItem
-          button
-          component={NavLink}
-          to="/dummydata"
-          activeClassName="Mui-selected"
-        >
-          <ListItemIcon>
-            <DeveloperModeIcon />
-          </ListItemIcon>
-          <ListItemText primary="Dummy Data" />
-        </ListItem>
-        <ListItem
-          button
-          component={NavLink}
-          to="/devtools"
-          activeClassName="Mui-selected"
-        >
-          <ListItemIcon>
-            <DeveloperModeIcon />
-          </ListItemIcon>
-          <ListItemText primary="Dev Tools" />
         </ListItem>
       </List>
     </>
@@ -354,7 +271,7 @@ const MainLayout = ({ children }) => {
                     title="Apps"
                     color="inherit"
                     component={RouterLink}
-                    to="/dummydata"
+                    to="/admin"
                   >
                     <AppsIcon />
                   </IconButton>
