@@ -10,7 +10,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 const BreadCrumbs = () => {
-  const path = [{ title: "Home", to: "/" }, { title: "Overview" }];
+  const path = [{ title: "Home", to: "/" }, { title: "Dashboard" }];
   return <PageBreadcrumbs items={path} />;
 };
 
